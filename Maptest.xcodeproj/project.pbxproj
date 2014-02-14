@@ -13,14 +13,15 @@
 		84C2DAE018AA29B6009CDCB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84C2DADE18AA29B6009CDCB3 /* InfoPlist.strings */; };
 		84C2DAE218AA29B6009CDCB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2DAE118AA29B6009CDCB3 /* main.m */; };
 		84C2DAE618AA29B6009CDCB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2DAE518AA29B6009CDCB3 /* AppDelegate.m */; };
-		84C2DAE918AA29B6009CDCB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C2DAE718AA29B6009CDCB3 /* Main.storyboard */; };
-		84C2DAEC18AA29B6009CDCB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2DAEB18AA29B6009CDCB3 /* ViewController.m */; };
 		84C2DAEE18AA29B6009CDCB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C2DAED18AA29B6009CDCB3 /* Images.xcassets */; };
 		84C2DAF518AA29B6009CDCB3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C2DAF418AA29B6009CDCB3 /* XCTest.framework */; };
 		84C2DAF618AA29B6009CDCB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C2DAD518AA29B6009CDCB3 /* Foundation.framework */; };
 		84C2DAF718AA29B6009CDCB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C2DAD918AA29B6009CDCB3 /* UIKit.framework */; };
 		84C2DAFF18AA29B6009CDCB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84C2DAFD18AA29B6009CDCB3 /* InfoPlist.strings */; };
 		84C2DB0118AA29B6009CDCB3 /* MaptestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2DB0018AA29B6009CDCB3 /* MaptestTests.m */; };
+		84C2DB0C18AA2AAF009CDCB3 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2DB0B18AA2AAF009CDCB3 /* MapViewController.m */; };
+		84C2DB0E18AA2B15009CDCB3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C2DB0D18AA2B15009CDCB3 /* MapKit.framework */; };
+		84C2DB1018AA2BDE009CDCB3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C2DB0F18AA2BDE009CDCB3 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +45,16 @@
 		84C2DAE318AA29B6009CDCB3 /* Maptest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Maptest-Prefix.pch"; sourceTree = "<group>"; };
 		84C2DAE418AA29B6009CDCB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84C2DAE518AA29B6009CDCB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84C2DAE818AA29B6009CDCB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84C2DAEA18AA29B6009CDCB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84C2DAEB18AA29B6009CDCB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84C2DAED18AA29B6009CDCB3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84C2DAF318AA29B6009CDCB3 /* MaptestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaptestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C2DAF418AA29B6009CDCB3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		84C2DAFC18AA29B6009CDCB3 /* MaptestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MaptestTests-Info.plist"; sourceTree = "<group>"; };
 		84C2DAFE18AA29B6009CDCB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84C2DB0018AA29B6009CDCB3 /* MaptestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaptestTests.m; sourceTree = "<group>"; };
+		84C2DB0A18AA2AAF009CDCB3 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ../MapViewController.h; sourceTree = "<group>"; };
+		84C2DB0B18AA2AAF009CDCB3 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ../MapViewController.m; sourceTree = "<group>"; };
+		84C2DB0D18AA2B15009CDCB3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		84C2DB0F18AA2BDE009CDCB3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C2DB1018AA2BDE009CDCB3 /* CoreLocation.framework in Frameworks */,
+				84C2DB0E18AA2B15009CDCB3 /* MapKit.framework in Frameworks */,
 				84C2DAD818AA29B6009CDCB3 /* CoreGraphics.framework in Frameworks */,
 				84C2DADA18AA29B6009CDCB3 /* UIKit.framework in Frameworks */,
 				84C2DAD618AA29B6009CDCB3 /* Foundation.framework in Frameworks */,
@@ -101,6 +105,8 @@
 		84C2DAD418AA29B6009CDCB3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84C2DB0F18AA2BDE009CDCB3 /* CoreLocation.framework */,
+				84C2DB0D18AA2B15009CDCB3 /* MapKit.framework */,
 				84C2DAD518AA29B6009CDCB3 /* Foundation.framework */,
 				84C2DAD718AA29B6009CDCB3 /* CoreGraphics.framework */,
 				84C2DAD918AA29B6009CDCB3 /* UIKit.framework */,
@@ -112,11 +118,10 @@
 		84C2DADB18AA29B6009CDCB3 /* Maptest */ = {
 			isa = PBXGroup;
 			children = (
+				84C2DB0A18AA2AAF009CDCB3 /* MapViewController.h */,
+				84C2DB0B18AA2AAF009CDCB3 /* MapViewController.m */,
 				84C2DAE418AA29B6009CDCB3 /* AppDelegate.h */,
 				84C2DAE518AA29B6009CDCB3 /* AppDelegate.m */,
-				84C2DAE718AA29B6009CDCB3 /* Main.storyboard */,
-				84C2DAEA18AA29B6009CDCB3 /* ViewController.h */,
-				84C2DAEB18AA29B6009CDCB3 /* ViewController.m */,
 				84C2DAED18AA29B6009CDCB3 /* Images.xcassets */,
 				84C2DADC18AA29B6009CDCB3 /* Supporting Files */,
 			);
@@ -230,7 +235,6 @@
 			files = (
 				84C2DAEE18AA29B6009CDCB3 /* Images.xcassets in Resources */,
 				84C2DAE018AA29B6009CDCB3 /* InfoPlist.strings in Resources */,
-				84C2DAE918AA29B6009CDCB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84C2DAEC18AA29B6009CDCB3 /* ViewController.m in Sources */,
+				84C2DB0C18AA2AAF009CDCB3 /* MapViewController.m in Sources */,
 				84C2DAE618AA29B6009CDCB3 /* AppDelegate.m in Sources */,
 				84C2DAE218AA29B6009CDCB3 /* main.m in Sources */,
 			);
@@ -280,14 +284,6 @@
 				84C2DADF18AA29B6009CDCB3 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		84C2DAE718AA29B6009CDCB3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84C2DAE818AA29B6009CDCB3 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		84C2DAFD18AA29B6009CDCB3 /* InfoPlist.strings */ = {
